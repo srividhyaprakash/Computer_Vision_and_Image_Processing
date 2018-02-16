@@ -9,4 +9,4 @@
 
 Usage:
 
-From the command line, type : python scanner.py -i "path to the image"
+From the command line, type : `python scanner.py -i "path to the image"`
