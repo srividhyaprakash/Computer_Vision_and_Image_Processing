@@ -10,3 +10,5 @@
 Usage:
 
 From the command line, type : `python scanner.py -i "path to the image"`
+
+example: `python scanner.py -i images/receipt.png`
