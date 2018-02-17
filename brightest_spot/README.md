@@ -7,3 +7,6 @@ Usage:
 From the terminal, type: 
 
 `python _filename_ -i _path to image_ -r _number_`
+
+
+example:  `python bright.py -i images/retina.png -r 21`
