@@ -8,6 +8,6 @@ Usage:
 
 From the terminal, type:
 
-python _filename_ -v _path to video_ (optional)
+```python _filename_ -v _path to video_ (optional)```
 
-example: python real_time_detect.py 
+example: ```python real_time_detect.py```
