@@ -1,9 +1,11 @@
-Code to find the brightest spot in an image.
+Code to detect the barcode in an image.
 
-We introduce noise to the image so that our code is more robust in finding the brightest spot rather than the brightest pixel. Radius is the radius over which we want to average our brightest spot Usage:
+We calculate the x- and the y-gradients and subtract them to obtain the region with a high horizontal gradient and a low vertical gradient which is our barcoded region. From there we perform a couple of dilations to remove the unneccessary blobs and make a complete picture, binary invert the image and then draw contours around the barcoded region.
+
+Usage:
 
 From the terminal, type:
 
-```python _filename_ -i _path to image_ -r _number_```
+```python _filename_ -i _path to image_ ```
 
-example: ```python bright.py -i images/retina.png -r 21```
+example: ```python detect_barcode.py -i images/retina.png```
