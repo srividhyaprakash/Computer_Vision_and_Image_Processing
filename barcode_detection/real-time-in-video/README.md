@@ -8,6 +8,6 @@ Usage:
 
 From the terminal, type:
 
-python _filename_ -i _path to image_
+python _filename_ -v _path to video_ (optional)
 
-example: python detect_barcode.py -i images/retina.png
+example: python real_time_detect.py 
